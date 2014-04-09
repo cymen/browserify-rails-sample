@@ -1,0 +1,2 @@
+class BeepController < ApplicationController
+end

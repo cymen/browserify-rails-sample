@@ -64,5 +64,8 @@ module BrowserifyRailsSample
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    # Uncomment if debugging asset compilation (and clear tmp/cache off of Rails root!)
+    #config.assets.cache_store = :null_store
   end
 end

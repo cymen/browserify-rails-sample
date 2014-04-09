@@ -1,0 +1,2 @@
+class BoopController < ApplicationController
+end

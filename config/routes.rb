@@ -46,6 +46,9 @@ BrowserifyRailsSample::Application.routes.draw do
   #     resources :products
   #   end
 
+  match 'beep' => 'beep#index'
+  match 'boop' => 'boop#index'
+
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
   root :to => 'welcome#index'

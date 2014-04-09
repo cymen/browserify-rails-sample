@@ -1,0 +1,9 @@
+robot:
+  require:
+    - ./robot.js
+beep:
+  external:
+    - robot.js
+boop:
+  external:
+    - robot.js

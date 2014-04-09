@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 
+gem 'pry'
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -17,7 +19,7 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
-  gem 'hsume2-browserify-rails', '~> 0.2.1', :require => 'browserify-rails'
+  gem 'browserify-rails', require: 'browserify-rails', github: 'cymen/browserify-rails', branch: 'more-granular-configuration'
 end
 
 # To use ActiveModel has_secure_password
