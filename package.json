@@ -2,6 +2,7 @@
   "name": "browserify-rails-sample",
   "version": "0.0.1",
   "dependencies": {
+    "browserify": "3.41.0",
     "jquery-browserify": "*"
   },
   "devDependencies" : {
